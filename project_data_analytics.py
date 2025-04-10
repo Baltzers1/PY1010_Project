@@ -1,3 +1,8 @@
+# Plotting av ekkeftdata
+# Forfatter: Magnus Baltzersen 10.04.25
+# Skrevet i VS code 
+
+
 import os
 import sys
 import pandas as pd
