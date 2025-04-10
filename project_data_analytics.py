@@ -1,4 +1,4 @@
-# Plotting av ekkeftdata
+# Kombinering av filer, produsere en summary fil og plotting av effektdata
 # Forfatter: Magnus Baltzersen 10.04.25
 # Skrevet i VS code 
 
