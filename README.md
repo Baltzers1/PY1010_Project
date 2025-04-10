@@ -4,39 +4,37 @@ Dette programmet kombinerer, filtrerer og visualiserer effektdata hentet fra Exc
 Last ned og pakk ut data:
 I repository-et finner du en .zip-fil.
 Last ned og pakk ut denne lokalt på din maskin.
-Dette vil gi deg en mappe med 24 Excel-filer (.xlsx) som inneholder timesbasert strømforbruk.
+Dette vil gi deg en mappe med 24 Excel-filer (.xlsx) som inneholder timesbasert effektforbruk.
 
-Kjør programmet: Sørg for at du har installert nødvendige avhengigheter (se nedenfor), og kjør programmet fra terminal eller IDE:
-
-bash
-Copy
-Edit
+Kjør programmet: 
+Sørg for at du har installert nødvendige avhengigheter (se nedenfor), og kjør programmet fra terminal eller IDE:
 python PY1010_project.py
+
 OBS: Du vil bli bedt om å velge mappen som inneholder .xlsx-filene via et grafisk grensesnitt (Tkinter).
 
-Hva programmet gjør
+Hva programmet gjør:
 Laster inn og kombinerer alle .xlsx-filer fra valgt mappe.
 Renser data ved å erstatte manglende eller tomme verdier med 0.
 Filtrerer vekk rader hvor 'Power [kW]' er lik 0, for å lage en kortere og mer informativ oppsummering.
 Lagrer et sammendrag (Summary.xlsx) i en egen Summary-mappe.
-Visualiserer alle registrerte strømverdier over et døgn:
+Visualiserer alle registrerte effektbruk over et døgn:
 Plottet viser alle målinger som prikker.
 En rød linje viser gjennomsnittlig strømbruk etter beregnet effektap.
 En blå stiplet linje viser maksverdiene.
 
-Eksempel på output
+Eksempel på output:
 Plottet visualiserer variasjoner i effektforbruk time for time. Dette kan være nyttig for å identifisere:
 Forbrukstopper
-Gjennomsnittlig strømbruk i løpet av døgnet
-Tidspunkter uten aktivitet
+Gjennomsnittlig effektbruk i løpet av døgnet
+Tidspunkter med lav aktivitet
 
-Avhengigheter
+
 Programmet krever følgende Python-pakker:
-pandas
-numpy
-matplotlib
-tkinter (følger vanligvis med Python)
-openpyxl (for å lese .xlsx-filer)
+pandas,
+numpy,
+matplotlib,
+tkinter,
+openpyxl
 
 Installer nødvendige avhengigheter:
 pip install pandas numpy matplotlib openpyxl
