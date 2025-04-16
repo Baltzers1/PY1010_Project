@@ -1,5 +1,5 @@
-Dette programmet kombinerer, filtrerer og visualiserer effektdata hentet fra Excel-filer. Brukeren velger selv en mappe med .xlsx-filer 
-(for eksempel fra en vedlagt .zip-fil), og programmet genererer både en graf og en sammendragsfil (Summary.xlsx) basert på strømforbruk (Power [kW]) gjennom døgnet.
+Dette programmet kombinerer, filtrerer og visualiserer effektdata hentet fra Excel-filer. Brukeren velger selv en mappe med .xlsx-filer,
+og programmet genererer både en graf og en sammendragsfil (Summary.xlsx) basert på strømforbruk (Power [kW]) gjennom døgnet.
 
 Last ned og pakk ut data:
 I repository-et finner du en .zip-fil.
@@ -7,7 +7,7 @@ Last ned og pakk ut denne lokalt på din maskin.
 Dette vil gi deg en mappe med 24 Excel-filer (.xlsx) som inneholder timesbasert effektforbruk.
 
 Kjør programmet: 
-Sørg for at du har installert nødvendige avhengigheter (se nedenfor), og kjør programmet fra terminal eller IDE:
+Sørg for at du har installert nødvendige pakker (se nedenfor), og kjør programmet fra terminal eller IDE:
 python PY1010_project.py
 
 OBS: Du vil bli bedt om å velge mappen som inneholder .xlsx-filene via et grafisk grensesnitt (Tkinter).
